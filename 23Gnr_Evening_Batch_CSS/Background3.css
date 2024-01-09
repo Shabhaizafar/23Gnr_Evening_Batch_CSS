@@ -1,0 +1,41 @@
+/* body{
+    background-image: url(image1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+
+    /* background-attachment: scroll; */
+    /* background-attachment: fixed; */
+    /* background-attachment: local; */
+/* } */
+/* div{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    overflow: auto;
+    background-image: url(image1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+     /* background-attachment: scroll; */
+    /* background-attachment: fixed; */
+    /* background-attachment: local;
+} */
+/* 
+background-attachment : 
+1) body : 
+        scroll(default),fixed , local(not working)
+2) div : 
+        fixed(default),scroll(not workable),local(workable as a scrolling)
+ */
+
+div{
+    width: 100%;
+    height: 600px;
+    background-image: url(image1.jpg),url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1701648000&semt=sph");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: color-burn; */
+    /* background-blend-mode: ; */
+}

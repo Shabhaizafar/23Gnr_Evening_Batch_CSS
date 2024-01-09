@@ -1,0 +1,37 @@
+/*using  Color Name */
+h6{
+    color: rgba(0, 81, 255, 0.717)(222, 12, 12);
+}
+/* using Hexa decimal Number  0-9 a-f = 16 */
+h5{
+    color: #a00000;
+}
+/* RGB color 
+    rgb(red 0-255,green 0-255,blue 0-255)
+*/
+h4{
+    color: rgb(255,255,0);
+}
+/* RGBA Color
+    rgba(red 0-255,green 0-255,blue 0-255,alpha 0-1(1))
+ */
+h3{
+    color: rgba(255,0,0,0.2);
+}
+/* 
+HSL Color : 
+Hue (0 - 360), Saturation (0% - 100%) (100%) , Lightness (0% -100%) (50%))
+ */
+h2{
+    color: hsl(120, 43%, 50%);
+}
+/* 
+HSLA Color
+
+ */
+/*
+Comment : ctrl+/
+h1{
+    color: red;
+}
+*/

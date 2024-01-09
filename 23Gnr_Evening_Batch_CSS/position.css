@@ -1,0 +1,23 @@
+div{
+    width: 1000px;
+    border: 1px solid black;
+    /* position: relative; */
+}
+img{
+
+    /* width: 300px; */
+
+
+    /* default */
+    /* position: static; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+
+    /* position: sticky; */
+
+    /* top: 10px;  */
+    /* left: 100px; */
+    /* right: 100px; */
+    /* bottom: 100px; */
+}

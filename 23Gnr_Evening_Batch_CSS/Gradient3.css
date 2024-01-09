@@ -1,0 +1,50 @@
+/* div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 50%;
+}
+.box1{
+    background-image: linear-gradient(red,yellow);
+}
+.box2{
+    background-image: radial-gradient(red,yellow);
+}
+.box3{
+    background-image: conic-gradient(red,yellow);
+}
+.box4{
+    background-image: conic-gradient(from 45deg,red,yellow);
+}
+.box5{
+    background-image: conic-gradient(red,yellow,red);
+}
+.box6{
+    background-image: conic-gradient(at left,red,yellow,red);
+}
+.box7{
+    background-image: conic-gradient(at left bottom,red,yellow,red);
+}
+.box8{
+    background-image: conic-gradient(at 80% 30%,red,yellow,red);
+}
+.box9{
+    background-image: conic-gradient(at 50px 150px,red,yellow,red);
+}
+.box10{
+    background-image: conic-gradient(red 0deg,red 120deg,yellow 120deg,yellow 360deg);
+}
+.box11{
+    background-image: conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg,red 180deg,red 270deg,yellow 270deg,yellow 360deg);
+}
+.box12{
+    background-image: repeating-conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg);
+}
+.box13{
+    background-image: repeating-conic-gradient(from 45deg at 50px 70px,red 0deg,red 90deg,yellow 90deg,yellow 180deg);
+}
+.box14{
+    background-image: repeating-conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg);
+    background-size: 50px 50px;
+} */

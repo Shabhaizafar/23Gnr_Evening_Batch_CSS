@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 100px;
+}
+li{
+    margin-left: -4px;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(44, 44, 44);
+    position: relative;
+}
+li:hover{
+    top: -10px;
+    transition: all 3s;
+}
+.list1{
+    border-radius: 8px 0px 0px 8px;
+    background-color: lightgreen;
+}
+span{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 20px;
+    background-color: blueviolet;
+    top: 0px;
+    left: 0px;
+}
+.list1:hover span{
+    transition: background-color 3s;
+    display: block;
+    background-color: lightgreen;
+    z-index: -1;
+}
+.list2{
+    background-color: lightcoral;
+}
+.list2:hover span{
+    display: block;
+    background-color: lightcoral;
+    z-index: -1;
+}
+.list3{
+    background-color: lightblue;
+}
+.list3:hover span{
+    display: block;
+    background-color: lightblue;
+    z-index: -1;
+}
+.list4{
+    background-color: lightslategrey;
+}
+.list4:hover span{
+    display: block;
+    background-color: lightslategray;
+    z-index: -1;
+}
+.list5{
+    border-radius: 0px 8px 8px 0px;
+    background-color: lightsalmon;
+}
+.list5:hover span{
+    display: block;
+    background-color:lightsalmon;
+    z-index: -1;
+}

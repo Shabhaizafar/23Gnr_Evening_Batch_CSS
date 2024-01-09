@@ -1,0 +1,78 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.box1{
+    background-image: linear-gradient(red,yellow,blue);
+}
+.box2{
+    background-image: linear-gradient(to bottom,red,yellow,blue);   
+}
+.box3{
+    background-image: linear-gradient(to top,red,yellow,blue);   
+}
+.box4{
+    background-image: linear-gradient(to left,red,yellow,blue);   
+}
+.box5{
+    background-image: linear-gradient(to right,red,yellow,blue);   
+}
+.box6{
+    background-image: linear-gradient(to bottom left,red,yellow,blue);   
+}
+.box7{
+    background-image: linear-gradient(to top right,red,yellow,blue);   
+}
+.box8{
+    background-image: linear-gradient(to left top,red,yellow,blue);   
+}
+.box9{
+    background-image: linear-gradient(to right bottom,red,yellow,blue);   
+}
+.box10{
+    background-image: linear-gradient(360deg,red,yellow,blue);
+}
+.box11{
+    background-image: linear-gradient(red 0px,red 30px,yellow 30px,yellow 130px,blue 130px,blue);
+}
+.box12{
+    background-image: linear-gradient(to top left,red 0px,red 30px,yellow 30px,yellow 130px,blue 130px,blue);
+}
+.box13{
+    background-image: linear-gradient(red 0%,red 20%,yellow 20%,yellow 70%,blue 70%,blue);
+}
+.box14{
+    background-image: linear-gradient(to top left,red 0%,red 20%,yellow 20%,yellow 70%,blue 70%,blue);
+}
+.box15{
+    background-image: repeating-linear-gradient(red 0px,red 20px,yellow 20px,yellow 40px,blue 40px,blue 60px);
+}
+.box16{
+    background-image: repeating-linear-gradient(to left,red 0px,red 20px,yellow 20px,yellow 40px,blue 40px,blue 60px);
+}
+
+.box17{
+    background-image: repeating-linear-gradient(to left top,red 0px,red 20px,yellow 20px,yellow 40px,blue 40px,blue 60px);
+}
+
+.box18{
+    background-image: repeating-linear-gradient(120deg,red 0px,red 20px,yellow 20px,yellow 40px,blue 40px,blue 60px);
+}
+/* 
+Gradient : 
+ Combination of Multiple COlor 
+
+1) Linear-gradient
+2) repeating-linear-gradient
+3) radial-gradient
+4) repeating-radial-gradient
+5) conic-gradient
+6) repeating-conic-gradient
+
+*/
+
+/* 
+
+*/

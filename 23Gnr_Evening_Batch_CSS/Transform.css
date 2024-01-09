@@ -1,0 +1,51 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 150px auto 0px;   
+}
+div:hover{
+    transition: all 2s;
+    background-color: blueviolet;
+
+    /* translate */
+                        /* X axis */
+    /* transform: translate(50px); */
+                            /*X     Y*/
+        /* transform: translate(50px,50px); */
+                /* X -axis */
+    /* transform: translateX(50px); */
+    /* transform: translateX(-50px); */
+    /* transform: translateY(50px); */
+    /* transform: translateY(-50px); */
+
+    /* scale */
+
+              /* X and Y */
+    /* transform: scale(2); */
+                /*  X or Y */
+    /* transform: scale(2,.5); */
+    /* transform: scaleX(2); */
+    /* transform: scaleX(.5); */
+    /* transform: scaleY(2); */
+    /* transform: scaleY(0); */
+
+    /* rotate   */
+
+                /* Z axis */
+    /* transform: rotate(720deg); */
+    /* transform: rotate(30deg,30deg); */
+    /* transform: rotateX(90deg); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(90deg); */
+    /* transform: rotateY(180deg); */
+
+    /* skew */
+                    /* X */
+    /* transform: skew(30deg); */
+                    /*X     Y*/
+    /* transform: skew(-30deg,-30deg); */
+    /* transform: skewX(90deg); */
+    /* transform: skewY(90deg); */
+}

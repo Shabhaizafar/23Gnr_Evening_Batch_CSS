@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    /* padding: 20px; */
+    margin: 50px auto 0px;
+    border: 30px solid blue;
+
+    border-image-source: url("border-frame.png");
+    /* tom/bottom  left right */
+    border-image-slice: 60 67;
+    /* border-image-repeat: stretch; */
+    /* border-image-repeat: space; */
+    /* border-image-repeat: round; */
+    border-image-width: 80px;
+    border-image-outset: 60px;
+}

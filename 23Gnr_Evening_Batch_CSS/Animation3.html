@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 3</title>
+    <style>
+        body{
+            background-color:black;
+        }
+        div{
+            border:1px solid black;
+            font-size:24px;
+            text-align:center;
+            margin:100px auto 0px;
+            color:transparent;
+            padding:20px;
+            background-image:radial-gradient(white 0px,transparent);
+            background-size:80px auto;
+            background-repeat:no-repeat;
+            animation-name:b1;
+            animation-duration:4s;
+            animation-iteration-count:infinite;
+            animation-direction:normal;
+            -webkit-background-clip:text;
+        }
+        @keyframes b1 {
+            from{
+                background-position:0px 0px;
+            }
+            to{
+                background-position:100% 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        SHINING TEXT ANIMATION EFFECT
+    </div>
+</body>
+</html>

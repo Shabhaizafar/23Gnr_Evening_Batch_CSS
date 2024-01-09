@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        main{
+            border: 1px solid black;
+            background-color: yellow;
+            width: 506px;   
+            height: 500px;
+            margin: auto;
+            padding: 100px;
+            position: relative;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            float: left;
+        }
+        .box1{
+            background-color: rebeccapurple;
+        }
+        .box2{
+            background-color: red;
+            /* position: static; */
+            /* position: relative; */
+            /* position: absolute; */
+            /* position: fixed; */
+
+            position: sticky;
+
+            /* top: 0px; */
+            /* left: 200px; */
+        }
+        .box3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+    </main>
+</body>
+</html>
