@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: cadetblue;
+    height: 600px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 900px;
+    /* ---------------- */
+    /* align-items: start; */
+    /* align-items: flex-start; */
+
+    /* align-items: end; */
+    /* align-items: flex-end; */
+    
+    /* align-items: baseline; */
+    /* align-items: first baseline; */
+
+    /* align-items: last baseline; */
+    /* align-items: center; */
+
+    /* flex-wrap: wrap; */
+}
+div,h1,h2{
+    flex-grow: 1;
+    /* height: fit-content; */
+    flex-basis: 120px;
+    flex-shrink: 0;
+}
+div:nth-child(2n){
+    background-color: green;
+}
+h1{
+    /* order: 2; */
+    background-color: green;
+
+}
+.box6{
+    flex-shrink: 20;
+}
+div:nth-child(2n+1){
+    background-color: crimson;
+}
+h2{
+    background-color: crimson;
+    /* align-self: baseline; */
+    /* align-self: center; */
+    /* order: 1; */
+}
+
+.box8{
+    flex-shrink: 10;
+}
+
+/* 
+Parents : 
+    justify-content: ;
+    flex-direction: ;
+    flex-wrap: ;
+    flex-flow: ;
+    align-items: ;
+    gap: ;
+    row-gap: ;
+    column-gap: ;
+
+
+Child : 
+    flex-shrink: ;
+    flex-basis: ;
+    flex-grow: ;
+    align-self: ;
+    order: ;
+
+ */
