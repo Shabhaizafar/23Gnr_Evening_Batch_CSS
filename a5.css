@@ -1,0 +1,33 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-name: box;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes box{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 400px;
+        left: 0px;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        top: 0px;
+        left: 400px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+
+/* 100% /4  = 25% */
